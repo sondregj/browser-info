@@ -1,0 +1,16 @@
+{
+  "name": "fcc-browser-info",
+  "version": "1.0.0",
+  "description": "A simple API that sends browser info back as JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sondre Gjellestad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-useragent": "^1.0.12"
+  }
+}
